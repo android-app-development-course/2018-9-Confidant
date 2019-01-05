@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chickenattack.zhiyin.Item">
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/Item_Sign"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:textSize="20dp"
+                android:ems="1"
+                android:text="分类" />
+
+            <ImageView
+                android:id="@+id/Item_UserImage"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:background="@null"
+                android:src="@android:drawable/btn_star" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Item_Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:textSize="18dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/Item_UserSign"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:text="TextView" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+        android:id="@+id/Item_Details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:layout_marginLeft="70dp"
+        android:text="TextView" />
+
+        <TextView
+            android:id="@+id/Item_Video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="14dp"
+            android:layout_marginLeft="70dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/Item_Keyword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:layout_marginLeft="70dp"
+            android:text="TextView" />
+
+        <LinearLayout
+            android:id="@+id/group1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/Item_DetailsImage1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="70dp"
+                android:src="@drawable/ic_launcher_foreground" />
+            <ImageView
+                android:id="@+id/Item_DetailsImage2"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_launcher_foreground" />
+            <ImageView
+                android:id="@+id/Item_DetailsImage3"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_launcher_foreground" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/group2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/Item_DetailsImage4"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="70dp"
+                android:src="@drawable/ic_launcher_foreground" />
+            <ImageView
+                android:id="@+id/Item_DetailsImage5"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_launcher_foreground" />
+            <ImageView
+                android:id="@+id/Item_DetailsImage6"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_launcher_foreground" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/group3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/Item_DetailsImage7"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="70dp"
+                android:src="@drawable/ic_launcher_foreground" />
+            <ImageView
+                android:id="@+id/Item_DetailsImage8"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_launcher_foreground" />
+            <ImageView
+                android:id="@+id/Item_DetailsImage9"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_launcher_foreground" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/zhuanfa"
+            android:background="#cccccc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Item_zhuanfa_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:textSize="15dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/Item_zhuanfa_Details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/Item_zhuanfa_Video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:layout_marginLeft="70dp"
+                android:text="TextView" />
+
+            <LinearLayout
+                android:id="@+id/zhuanfa_group1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/Item_zhuanfa_DetailsImage1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="70dp"
+                    android:src="@drawable/ic_launcher_foreground" />
+                <ImageView
+                    android:id="@+id/Item_zhuanfa_DetailsImage2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_launcher_foreground" />
+                <ImageView
+                    android:id="@+id/Item_zhuanfa_DetailsImage3"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_launcher_foreground" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/zhuanfa_group2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/Item_zhuanfa_DetailsImage4"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="70dp"
+                    android:src="@drawable/ic_launcher_foreground" />
+                <ImageView
+                    android:id="@+id/Item_zhuanfa_DetailsImage5"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_launcher_foreground" />
+                <ImageView
+                    android:id="@+id/Item_zhuanfa_DetailsImage6"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_launcher_foreground" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/zhuanfa_group3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/Item_zhuanfa_DetailsImage7"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="70dp"
+                    android:src="@drawable/ic_launcher_foreground" />
+                <ImageView
+                    android:id="@+id/Item_zhuanfa_DetailsImage8"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_launcher_foreground" />
+                <ImageView
+                    android:id="@+id/Item_zhuanfa_DetailsImage9"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_launcher_foreground" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
